@@ -12,6 +12,10 @@ app.get('/',(rew,res)=>{
     res.status(200).send('all is great')
 })
 
+app.get('/test',(rew,res)=>{
+    res.status(200).send('test test')
+})
+
 app.listen(PORT, () => {
   console.log(`Listening on PORT ${PORT}`);
 });
